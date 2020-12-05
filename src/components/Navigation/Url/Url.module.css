@@ -1,0 +1,44 @@
+.Url {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+
+.Url a {
+  color: #ccc;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+.Url a:hover,
+.Url a:active,
+.Url a.active {
+  color: #2b2e4a;
+}
+
+@media (min-width: 500px) {
+  .Url {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: auto;
+  }
+
+  .Url a {
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .Url a:hover,
+  .Url a:active,
+  .Url a.active {
+    background-color: #455d7a;
+    border-bottom: 4px solid #fafafa;
+    color: white;
+  }
+}

@@ -1,0 +1,38 @@
+.IslamicCalendar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GregorianDate {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.Form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Inputs {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 500px) and (min-height: 401px) {
+  .Form {
+    margin: auto;
+  }
+
+  .Inputs {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25%;
+  }
+}
