@@ -1,6 +1,6 @@
 # Historical Calendar Converter
 
-[Historical Calendar Converter](https://historicalcalendarconverter.web.app) is converts Gregorian calendar dates to a variety of historical calendars (Julian, Islamic, Persian, Hebrew, French Revolutionary, Baha'i, Indian National, and Mayan). The webapp also pulls data from Wikipedia to display famous events, births, and deaths that occured on the queried date in history.
+[Historical Calendar Converter](https://historicalcalendarconverter.web.app) is a webapp that converts dates in the Gregorian calendar to dates in a variety of historical calendars (Julian, Islamic, Persian, Hebrew, French Revolutionary, Baha'i, Indian National, and Mayan). The webapp also pulls data from Wikipedia to display famous events, births, and deaths that occured on the queried date in history.
 
 Historical Calendar Converter was built with React 17.0.1 and Redux 4.0.5.
 
